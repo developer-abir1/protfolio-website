@@ -14,15 +14,15 @@ const Header = () => {
   return (
     <div className="bg-[#222831]  ">
       <div className=" container m-auto ">
-        <div className="  grid   grid-cols-1  h-[700px]  md:grid-cols-2 text-white     place-items-center   relative">
-          <div className="mb-8  ">
+        <div className="  grid   grid-cols-1  h-[700px]  lg:grid-cols-2  text-white     place-items-center   relative">
+          <div className="lx:mb-8  ">
             <h2 className="text-2xl  justify-end">Hello !</h2>
-            <h2 className="md:text-6xl text-5xl font-bold space-x-4 uppercase">
+            <h2 className="lx:text-6xl  text-xl md:text-6xl sm:text-5xl font-bold space-x-4 uppercase">
               <span className=" ">I'm</span>
               <span className="text-[#00ADB5]">Abir khan</span>
             </h2>
-            <h2 className="text-5xl font-bold  ">
-              <span className="text-[#00ADB5] md:text-4xl text-3xl uppercase">
+            <h2 className="md:text-5xl text-xl font-bold  ">
+              <span className="text-[#00ADB5] xl:text-5xl md:text-3xl text-xl uppercase">
                 <ReactTypingEffect
                   text={[' Javascript developer ', '  Web developer']}
                 />
@@ -33,7 +33,7 @@ const Header = () => {
               <button className=" btn   bg-[#00ADB5] border-0 hover:bg-[#00ADB5]">
                 Hire Me
               </button>
-              <button className=" btn  btn-ghost bg-white hover:bg-white text-black">
+              <button className=" md:w-52 w-28 md:text-xl text-[10px] btn  btn-ghost bg-white hover:bg-white text-black">
                 download CV
               </button>
             </div>
@@ -44,32 +44,29 @@ const Header = () => {
           <div>
             <RiReactjsLine
               size={80}
-              className=" absolute top-60  right-[570px] text-[#0a5e77]  animate-spin "
+              className=" absolute md:top-60 top-[320px]  right-44 md:right-[570px] text-[#0a5e77]  animate-spin "
             />
             <DiJavascript1
               size={80}
               color={' '}
-              className=" absolute   bottom-40    left-96 text-yellow-400  animate-pulse"
+              className=" absolute   bottom-52  left-0  md:left-96 text-yellow-400  animate-pulse"
             />
             <SiFirebase
               size={60}
-              className=" absolute  right-96 md:top-16 top-72     text-yellow-400  animate-pulse  "
+              className=" absolute right-60  md:right-96 md:top-16 top-60     text-yellow-400  animate-pulse  "
             />
             <SiMongodb
               size={60}
-              className=" absolute    left-96  md:top-16 top-28    text-green-500  animate-pulse"
+              className=" absolute    left-0  md:left-96  md:top-16 top-72    text-green-500  animate-pulse"
             />
-            <GrNode
-              size={40}
-              className=" absolute  top-0  left-44     text-green-500  animate-pulse"
-            />
+            <GrNode className=" md:text-[500px] text-[300px] absolute  md:top-20 top-0  right-16 md:left-32 opacity-5 text-green-500   " />
             <SiTypescript
               size={30}
-              className=" absolute  top-52    md:right-0  right-20  text-[#07587e]    animate-pulse"
+              className=" absolute  md:top-52  top-60    right-2     text-[#07587e]    animate-pulse"
             />
             <SiTailwindcss
               size={40}
-              className=" absolute  top-4   md:top-12  right-16  text-[#00ADB5]    animate-pulse"
+              className=" absolute  top-0   md:top-12  right-16  text-[#00ADB5]    animate-pulse"
             />
           </div>
         </div>

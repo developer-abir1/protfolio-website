@@ -7,12 +7,10 @@ import Projects from '../components/Home/Projects';
 const Home = () => {
   return (
     <div className="bg-[#222831]  ">
-      <div className="container m-auto ">
-        <Header />
-        <About />
-        <Projects />
-        <Contactus />
-      </div>
+      <Header />
+      <About />
+      <Projects />
+      <Contactus />
     </div>
   );
 };

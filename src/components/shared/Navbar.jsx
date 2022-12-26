@@ -31,7 +31,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div class=" navbar-end     lg:hidden  ">
+        {/* <div class=" navbar-end     lg:hidden  ">
           <div class="dropdown">
             <label
               tabindex="0"
@@ -68,7 +68,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
