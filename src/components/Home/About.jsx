@@ -16,7 +16,7 @@ const About = () => {
               <span className="text-[#00ADB5]"> Me</span>
             </h2>
 
-            <p className="  mt-8 ml-9 text-gray-200  text-justify">
+            <p className="  mt-8   text-gray-200  text-justify">
               I'm{' '}
               <b className=" border-0  border-b-2 border-green-600">
                 MERN-Stack{' '}
@@ -34,9 +34,18 @@ const About = () => {
             </div>
             <div className=" ml-20 mt-4">
               <div className=" flex space-x-4">
-                <AiFillFacebook size={50} className="text-[#f8faff] " />
-                <FaLinkedinIn size={50} className="text-[#0072b1] " />
-                <SiTwitter size={50} className="text-[#238091] " />
+                <AiFillFacebook
+                  size={50}
+                  className="text-[#f8faff]     cursor-pointer"
+                />
+                <FaLinkedinIn
+                  size={50}
+                  className="text-[#0072b1]   cursor-pointer "
+                />
+                <SiTwitter
+                  size={50}
+                  className="text-[#238091]   cursor-pointer "
+                />
               </div>
             </div>
           </div>

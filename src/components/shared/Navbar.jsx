@@ -31,10 +31,10 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* <div class=" navbar-end     lg:hidden  ">
+        <div class=" navbar-end     lg:hidden  ">
           <div class="dropdown">
             <label
-              tabindex="0"
+              tabIndex={0}
               class="btn btn-ghost  hover:border-white   border-2   "
             >
               <svg
@@ -53,22 +53,27 @@ const Navbar = () => {
                 />
               </svg>
             </label>
-            <ul
-              tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <a>Homepage</a>
-              </li>
-              <li>
-                <a>Portfolio</a>
-              </li>
-              <li>
-                <a>About</a>
-              </li>
-            </ul>
+            <div className="dropdown dropdown-bottom dropdown-end">
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu p-2 shadow   border-r-2 border-l-2 text-white rounded-box w-52 bg-[#222831]"
+              >
+                <li className="  text-white   hover:border-b-2 border-white border-0 hover:border-orange-600 cursor-pointer ">
+                  Home
+                </li>
+                <li className="  text-white   hover:border-b-2 border-white border-0 hover:border-orange-600 cursor-pointer ">
+                  About
+                </li>
+                <li className="  text-white   hover:border-b-2 border-white border-0 hover:border-orange-600 cursor-pointer ">
+                  Projects
+                </li>
+                <li className="  text-white   hover:border-b-2 border-white border-0 hover:border-orange-600 cursor-pointer ">
+                  Contacts us
+                </li>
+              </ul>
+            </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
